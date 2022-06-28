@@ -3,11 +3,30 @@
   padding-bottom: 60px;
   background-color: #2f303a;
   &__container {
-    @include display(flex, baseline);
+    @media screen and (max-width: 767px) {
+      margin: 0 auto;
+      text-align: center;
+    }
+    @media screen and (min-width: 768px) {
+      @include display(flex, baseline);
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
   }
 }
 .contacts {
-  margin-right: 70px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
 }
 
 .address {
@@ -17,7 +36,10 @@
     font-family: inherit;
     font-style: normal;
     @include font(14px, null, 1.71, 0.03em);
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 9px;
+    }
   }
   &__link {
     color: #ffffff;
@@ -38,7 +60,13 @@
   color: var(--accent);
 }
 .social {
-  margin-right: 93px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) and (max-width: 1199px)  {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 
   &__title {
     @include font(14px, 700, 1.14, 0.03em);
@@ -92,16 +120,27 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     color: var(--main-tittle-color);
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin: 0;
   }
 }
 
 .mail-form {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 450px;
+  }
   &__input {
-    width: 358px;
+    width: 100%;
     height: 50px;
     padding-left: 16px;
-    margin-right: 12px;
+
     @include bordered(rgba(255, 255, 255, 0.3));
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.6);
@@ -111,6 +150,13 @@
     &:focus,
     &:hover {
       border: 1px solid var(--accent);
+    }
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 358px;
+      margin-right: 12px;
     }
   }
 }
@@ -130,6 +176,9 @@
   &:hover,
   &:focus {
     background-color: var(--hero-btn-color);
+  }
+  @media screen and (max-width: 1199px) {
+    margin: 0 auto;
   }
 }
 

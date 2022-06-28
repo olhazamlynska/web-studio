@@ -1,15 +1,22 @@
 .advantages {
-  padding-top: 94px;
-  padding-bottom: 47px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
+
   &__list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
   }
   &__item {
-    width: 270px;
-    text-align: left;
-    &:not(:first-child) {
-      margin-left: var(--average-margin-margin);
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 30px) / 2);
+    }
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 90px) / 4);
     }
   }
   &__thumb {
@@ -25,10 +32,15 @@
   &__subtittle {
     @include font(14px, null, 1.14, 0.03em);
     text-transform: uppercase;
+    text-align: center;
     color: var(--second-tittle-color);
     margin-bottom: var(--min-margin);
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
   &__text {
     @include font(14px, null, 1.71, 0.03em);
+    text-align: left;
   }
 }
