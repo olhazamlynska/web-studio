@@ -1,0 +1,26 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+
+  --main-BG-color: #e5e5e5;
+  --main-text-color: #757575;
+  --main-tittle-color: #ffffff;
+  --second-tittle-color: #212121;
+
+  --header-logo-color: #000000;
+  --footer-logo-color: #ffffff;
+
+  --main-btn-color: #2196f3;
+  --second-btn-color: #f5f4fa;
+  --hero-btn-color: #188ce8;
+  --text-btn-color: #ffffff;
+
+  --accent: #2196f3;
+
+  --max-margin: 50px;
+  --average-margin: 30px;
+  --min-margin: 10px;
+
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

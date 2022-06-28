@@ -1,0 +1,38 @@
+.soc__list {
+  @include display(flex, center);
+  justify-content: center;
+  margin-top: 16px;
+}
+.soc__item {
+  @include display(flex, center);
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+
+  &:not(:last-child) {
+    margin-right: var(--min-margin);
+  }
+}
+
+.soc__link {
+  @include display(flex, center);
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: inherit;
+  transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: var(--accent);
+  }
+}
+
+.soc__icon {
+  fill: currentColor;
+}

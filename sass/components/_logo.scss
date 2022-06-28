@@ -1,0 +1,30 @@
+.logo {
+  margin-right: 93px;
+
+  &__link {
+    font-family: var(--second-font);
+@include font(26px, 700, 1.19, 0.03em);
+    color: var(--accent);
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+      
+  }
+
+  &__text {
+    color: var(--header-logo-color);
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+}
+
+.logo__link:hover,
+.logo__link:focus,
+.logo__text:hover,
+.logo__text:focus {
+  color: var(--accent);
+}
+
+.logo__text--footer {
+  color: var(--footer-logo-color);
+  margin-bottom: 20px;
+}

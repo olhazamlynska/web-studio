@@ -1,0 +1,30 @@
+.job {
+  padding-top: 47px;
+  padding-bottom: 94px;
+  &__tittle {
+    margin-bottom: var(--max-margin);
+  }
+  &__list {
+    display: flex;
+    margin-left: -30px;
+  }
+  &__item {
+    position: relative;
+    width: calc(100% / 3 - 30px);
+    margin-left: var(--average-margin);
+  }
+  &__subtitle {
+    position: absolute;
+    bottom: 0;
+    @include display(flex, center);
+    justify-content: center;
+    width: 100%;
+    @include font(14px, null, 1.14, 0.03em);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: var(--main-tittle-color);
+    background: rgba(47, 48, 58, 0.8);
+  }
+}

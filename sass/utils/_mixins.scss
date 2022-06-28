@@ -1,0 +1,13 @@
+@mixin font($fs, $fw, $lh, $ls) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+@mixin display($dis, $ai) {
+  display: $dis;
+  align-items: $ai;
+}
+@mixin bordered($color) {
+  border: 1px solid $color;
+}
