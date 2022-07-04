@@ -31,6 +31,7 @@
 
 .address {
   margin-top: 20px;
+  margin-bottom: 60px;
 
   &__item {
     font-family: inherit;
@@ -61,7 +62,7 @@
 }
 .social {
   margin-bottom: 60px;
-  @media screen and (min-width: 768px) and (max-width: 1199px)  {
+  @media screen and (max-width: 1199px) {
     text-align: center;
   }
   @media screen and (min-width: 1200px) {
@@ -120,12 +121,12 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     color: var(--main-tittle-color);
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-      text-align: center;
-    }
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin: 0;
+  }
+  @media screen and (max-width: 1199px) {
+    text-align: center;
   }
 }
 
