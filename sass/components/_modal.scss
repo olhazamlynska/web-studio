@@ -2,8 +2,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
-  min-height: 581px;
+  width: 100%;
   padding: 40px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -13,6 +12,15 @@
   transition: transform var(--transition-duration)
       var(--transition-timing-function),
     opacity var(--transition-duration) var(--transition-timing-function);
+  @include mobile {
+    overflow: hidden;
+    width: 450px;
+    height: 609px;
+  }
+  @include desktop {
+    width: 528px;
+    min-height: 581px;
+  }
 
   .backdrop.is-hidden & {
     transform: translate(-90%, 90%) scale(0) rotate(-360deg);
@@ -46,8 +54,11 @@
 .modal__title {
   font-style: normal;
   font-size: 20px;
-  line-height: calc(23 / 20);
+  line-height: calc(30 / 20);
   margin-bottom: 12px;
+  @include desktop {
+    line-height: calc(23 / 20);
+  }
 }
 
 .modal__field {
@@ -143,7 +154,12 @@
   left: 0;
 }
 .check__text {
-  @include font(14px, null, 1.71, 0.03em);
+  @media screen and (max-width: 1199px) {
+    @include font(12px, null, 1.17, 0.03em);
+  }
+  @include desktop {
+    @include font(14px, null, 1.71, 0.03em);
+  }
 }
 
 .checkbox__span {
@@ -196,6 +212,7 @@
   min-width: 200px;
   height: 50px;
   margin: auto;
+
   background-color: var(--main-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--transition-duration)

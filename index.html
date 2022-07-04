@@ -42,17 +42,17 @@
             </li>
           </ul>
         </nav>
-        <ul class="nav__list list">
-          <li class="nav__item">
-            <a class="nav__address link" href="mailto:info@devstudio.com"
+        <ul class="contact__list list">
+          <li class="contact__item">
+            <a class="contact__address link" href="mailto:info@devstudio.com"
               ><svg class="icon__envelope" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="nav__item">
-            <a class="nav__address link" href="tel:+380961111111"
+          <li class="contact__item">
+            <a class="contact__address link" href="tel:+380961111111"
               ><svg class="icon__smartphone" width="16" height="12">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -60,6 +60,89 @@
             >
           </li>
         </ul>
+        <button class="header__button" type="button">
+          <svg class="header__icon-open" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
+        <div class="header-menu is-hidden">
+          <div class="container header-menu__container">
+            <button class="header-menu__button" type="button">
+              <svg class="header__icon-close" width="40" height="40">
+                <use href="./images/icons.svg#icon-menu-close"></use>
+              </svg>
+            </button>
+            <ul class="header-menu__list list">
+              <li class="header-menu__item">
+                <a class="header-menu__link link current" href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link link" href="">Контакты</a>
+              </li>
+            </ul>
+            <div class="header-soc-wrap">
+            <ul class="header-contact__list list">
+              <li class="header-contact__item">
+                <a class="header-contact__tell link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="header-contact__item">
+                <a
+                  class="header-contact__mail link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="header-soc__list list">
+              <li class="header-soc__item">
+                <a
+                  href="https://www.instagram.com/"
+                  class="header-soc__link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="header-soc__item">
+                <a
+                  href="https://twitter.com"
+                  class="header-soc__link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li class="header-soc__item">
+                <a
+                  href="https://www.facebook.com"
+                  class="header-soc__link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li class="header-soc__item">
+                <a
+                  href="https://www.linkedin.com"
+                  class="header-soc__link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -703,5 +786,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

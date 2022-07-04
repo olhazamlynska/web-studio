@@ -84,15 +84,23 @@
     position: absolute;
     top: 0;
     height: 100%;
-    overflow-y: scroll;
-    @include font(18px, null, 1.56, 0.03em);
-    padding-left: 24px;
-    padding-right: 24px;
+    @include font(15px, null, 1.56, 0.03em);
+    padding: 30px 24px;
     color: #ffffff;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     transition: transform var(--transition-duration)
       var(--transition-timing-function);
+    @include mobile {
+      font-size: 18px;
+      padding-top: 77px;
+    }
+    @include tablet {
+      padding-top: 49px;
+    }
+    @include desktop {
+      padding-top: 63px;
+    }
     .grid__link:hover &,
     .grid__link:focus & {
       transform: translateY(0);

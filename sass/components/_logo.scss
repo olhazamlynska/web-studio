@@ -1,5 +1,10 @@
 .logo {
-  margin-right: 93px;
+  @include tablet {
+    margin-right: 88px;
+  }
+  @include desktop {
+    margin-right: 93px;
+  }
 
   &__link {
     font-family: var(--second-font);
