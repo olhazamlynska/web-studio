@@ -13,7 +13,6 @@
       var(--transition-timing-function),
     opacity var(--transition-duration) var(--transition-timing-function);
   @include mobile {
-    overflow: hidden;
     width: 450px;
     height: 609px;
   }

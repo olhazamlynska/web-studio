@@ -1,9 +1,7 @@
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
-
   border-bottom: 1px solid #ececec;
-
   @include tablet {
     padding-top: 21px;
     padding-bottom: 21px;
@@ -37,7 +35,6 @@
   position: relative;
   @include font(14px, 500, 1.14, 0.02em);
   color: var(--second-tittle-color);
-
   transition: color var(--transition-duration) var(--transition-timing-function);
   &:hover,
   &:focus {
@@ -58,7 +55,6 @@
 
 .contact__list {
   display: none;
-
   @include tablet {
     display: block;
     margin-left: auto;
@@ -164,8 +160,7 @@
 .current {
   color: var(--accent);
 }
-.header-soc-wrap {
-}
+
 .header-contact__list {
   margin-bottom: 64px;
 }
@@ -197,11 +192,9 @@
   padding-right: 10px;
 }
 .header-soc__link {
-  @media screen and (max-width: 479px) {
-    @include font(14px, 500, 1.22, 0.02em);
-  }
+  @include font(18px, 500, 1.22, 0.02em);
   color: var(--accent);
-  @include mobile {
-    @include font(18px, 500, 1.22, 0.02em);
+  @media screen and (max-width: 479px) {
+    font-size: 14px;
   }
 }

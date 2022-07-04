@@ -7,12 +7,12 @@
       margin: 0 auto;
       text-align: center;
     }
-    @media screen and (min-width: 768px) {
+    @include tablet {
       @include display(flex, baseline);
       justify-content: space-around;
       flex-wrap: wrap;
     }
-    @media screen and (min-width: 1200px) {
+    @include desktop {
       flex-wrap: nowrap;
     }
   }
@@ -24,7 +24,7 @@
   @media screen and (max-width: 1199px) {
     text-align: center;
   }
-  @media screen and (min-width: 1200px) {
+  @include desktop {
     margin-right: 70px;
   }
 }
@@ -38,7 +38,7 @@
     font-style: normal;
     @include font(14px, null, 1.71, 0.03em);
     margin-bottom: 8px;
-    @media screen and (min-width: 1200px) {
+    @include desktop {
       margin-bottom: 9px;
     }
   }
@@ -65,7 +65,7 @@
   @media screen and (max-width: 1199px) {
     text-align: center;
   }
-  @media screen and (min-width: 1200px) {
+  @include desktop {
     margin-right: 93px;
   }
 
@@ -155,7 +155,7 @@
     @media screen and (max-width: 1199px) {
       margin-bottom: 20px;
     }
-    @media screen and (min-width: 1200px) {
+    @include desktop {
       width: 358px;
       margin-right: 12px;
     }
