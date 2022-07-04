@@ -84,8 +84,10 @@
     position: absolute;
     top: 0;
     height: 100%;
+    overflow-y: scroll;
     @include font(18px, null, 1.56, 0.03em);
-    padding: 63px 24px;
+    padding-left: 24px;
+    padding-right: 24px;
     color: #ffffff;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
