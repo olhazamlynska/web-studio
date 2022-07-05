@@ -22,7 +22,9 @@
       ),
       url(../images/herobg-mob-3x.jpg);
   }
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   @include tablet {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
