@@ -7,20 +7,20 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/herobg-mob.jpg);
+    url(../images/herobg-mob.jpg);
   @include retina2x {
     background-image: linear-gradient(
         rgba(25, 28, 38, 0.2),
         rgba(25, 28, 38, 0.2)
       ),
-      url(../../images/herobg-mob-2x.jpg);
+      url(../images/herobg-mob-2x.jpg);
   }
   @include retina3x {
     background-image: linear-gradient(
         rgba(25, 28, 38, 0.2),
         rgba(25, 28, 38, 0.2)
       ),
-      url(../../images/herobg-mob-3x.jpg);
+      url(../images/herobg-mob-3x.jpg);
   }
 
   @include tablet {
@@ -28,20 +28,20 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/herobg-tablet.jpg);
+      url(../images/herobg-tablet.jpg);
     @include retina2x {
       background-image: linear-gradient(
           rgba(25, 28, 38, 0.2),
           rgba(25, 28, 38, 0.2)
         ),
-        url(../../images/herobg-tablet-2x.jpg);
+        url(../images/herobg-tablet-2x.jpg);
     }
     @include retina3x {
       background-image: linear-gradient(
           rgba(25, 28, 38, 0.2),
           rgba(25, 28, 38, 0.2)
         ),
-        url(../../images/herobg-tablet-3x.jpg);
+        url(../images/herobg-tablet-3x.jpg);
     }
   }
   @include desktop {
@@ -51,20 +51,20 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/herobg.jpg);
+      url(../images/herobg.jpg);
     @include retina2x {
       background-image: linear-gradient(
           rgba(25, 28, 38, 0.2),
           rgba(25, 28, 38, 0.2)
         ),
-        url(../../images/herobg2x.jpg);
+        url(../images/herobg2x.jpg);
     }
     @include retina3x {
       background-image: linear-gradient(
           rgba(25, 28, 38, 0.2),
           rgba(25, 28, 38, 0.2)
         ),
-        url(../../images/herobg3x.jpg);
+        url(../images/herobg3x.jpg);
     }
   }
 
