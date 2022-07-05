@@ -903,12 +903,17 @@ body {
   }
 }
 .team__tittle {
-  margin-bottom: var(--max-margin);
+  margin-bottom: var(--average-margin);
 }
 @media screen and (max-width: 1199px) {
   .team__tittle {
     font-size: 28px;
     line-height: 1.18;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__tittle {
+    margin-bottom: var(--max-margin);
   }
 }
 .team__list {
@@ -966,12 +971,17 @@ body {
   }
 }
 .clients__tittle {
-  margin-bottom: var(--max-margin);
+  margin-bottom: var(--average-margin);
 }
 @media screen and (max-width: 1199px) {
   .clients__tittle {
     font-size: 28px;
     line-height: 1.18;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__tittle {
+    margin-bottom: var(--max-margin);
   }
 }
 .clients__list {
@@ -1062,6 +1072,11 @@ body {
   margin-top: 20px;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .address {
+    margin-bottom: 0;
+  }
+}
 .address__item {
   font-family: inherit;
   font-style: normal;
@@ -1102,6 +1117,7 @@ body {
 @media screen and (min-width: 1200px) {
   .social {
     margin-right: 93px;
+    margin-bottom: 0;
   }
 }
 .social__title {
@@ -1291,7 +1307,7 @@ body {
 }
 .grid__item {
   width: 100%;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
   transition: box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 .grid__item:hover {

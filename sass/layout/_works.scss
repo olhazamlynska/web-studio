@@ -54,7 +54,7 @@
 
   &__item {
     width: 100%;
-    border-bottom: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
     transition: box-shadow var(--transition-duration)
       var(--transition-timing-function);
     &:hover {
