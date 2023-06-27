@@ -17,9 +17,8 @@
 
 # 📖 Image Finder Application <a name="about-project"></a>
 
-**Web Studio** is site created for web design and development. It presents works
-of the studio, introduces the team members and the full list of available
-services. The website consists of two main pages: Home and Portfolio, where you
+**Web Studio** is a site created for web design and development. It presents the studio's works, introduces the team members, and a complete list of available
+services. The website has two main pages: Home and Portfolio, where you
 can find all needed information.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -49,9 +48,9 @@ can find all needed information.
 
 👤 **Olya Zamlynska**
 
-- GitHub: [@githubhandle](https://github.com/olhazamlynska)
-- Twitter: [@twitterhandle](https://twitter.com/olyazamlynska)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olhazamlynska)
+- GitHub: [@olhazamlynska](https://github.com/olhazamlynska)
+- Twitter: [@olhazamlynska](https://twitter.com/olyazamlynska)
+- LinkedIn: [OlhaZamlynska](https://www.linkedin.com/in/olhazamlynska)
 
 ## Contact Information <a name="contact-information"></a>
 
