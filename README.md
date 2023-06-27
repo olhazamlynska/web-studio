@@ -48,15 +48,12 @@ can find all needed information.
 
 👤 **Olya Zamlynska**
 
+- Email: [olyazamlynska@gmail.com](mailto:olyazamlynska@gmail.com)
 - GitHub: [@olhazamlynska](https://github.com/olhazamlynska)
 - Twitter: [@olhazamlynska](https://twitter.com/olyazamlynska)
 - LinkedIn: [OlhaZamlynska](https://www.linkedin.com/in/olhazamlynska)
 
 ## Contact Information <a name="contact-information"></a>
 
-If you have any questions or feedback, please feel free to contact me:
+If you have any questions or feedback, please feel free to contact me.
 
-- Email: [olyazamlynska@gmail.com](mailto:olyazamlynska@gmail.com)
-- GitHub: [olhazamlynska](https://github.com/olhazamlynska)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
